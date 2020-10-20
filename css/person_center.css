@@ -26,36 +26,7 @@ header{
     font-size: 0.16rem;
 }
 
-.search{
-    height: 0.33rem;
-    width: 100vw;
-    background-color: #fff;
-    box-sizing: border-box;
-    border-bottom: 1px solid #cdcdcd;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0.04rem 0.05rem 0;
-}
-.search input[type="text"]{
-    border: 1px solid #aaaaaa;
-    height: 0.24rem;
-    line-height: 0.24rem;
-    text-indent: 0.06rem;
-    border-radius: 5px;
-    flex: 1;
-}
-.search input[type="submit"]{
-    width: 0.46rem;
-    height: 0.23rem;
-    background-color: #0bc540;
-    color: white;
-    line-height: 0.23rem;
-    text-align: center;
-    font-size: 0.12rem;
-    margin-left: 0.06rem;
-    border-radius: 5px;
-}
+
 article{
     font-size: 0;
     margin-top: 0.05rem;
@@ -64,17 +35,14 @@ article{
     flex: 1;
     margin-bottom: 0.48rem;
 }
-.user-main{
-    border-bottom: 1px solid #e5e5e5;
-}
 .user-main dl{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     box-sizing: border-box;
     width: 100vw;
-    height: 0.75rem;
-    padding: 0.16rem 0.13rem 0 0.115rem;
+    height: 0.66rem;
+    padding: 0.09rem 0.13rem 0 0.115rem;
     background-color: #fff;
 }
 .user-main dl dt{
@@ -146,6 +114,32 @@ article div:first-child .user-name a{
     color: #323232;
     border-bottom: 1px solid #e4e4e4;
 }
+article nav{
+    width: 100vw;
+    height: 0.255rem;
+    display: flex;
+    align-items: stretch;
+}
+article nav a{
+    flex: 1;
+    text-align: center;
+    font-size: 0.12rem;
+    color: #999999;
+    box-sizing: border-box;
+    line-height: 0.255rem;
+}
+article nav a:first-child{
+    color: #0bc540;
+    border-bottom: 0.025rem solid #0bc540;
+}
+.show{
+    width: 100vw;
+}
+.show img{
+    width: 50%;
+    height: 1.59rem;
+}
+
 
 footer{
     position: fixed;
@@ -173,10 +167,10 @@ footer a b{
     font-size: 0.11rem;
     color: #d5d5d5;
 }
-footer a:nth-child(2) span{
+footer a:nth-child(4) span{
     color: #0bc540;
 }
-footer  a:nth-child(2) b{
+footer  a:nth-child(4) b{
     color: #0bc540;
 }
 footer a:nth-child(3){

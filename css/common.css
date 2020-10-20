@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+html,body,div,section,article,nav,aside,header,footer,table,form,ul,ol,li,dl,dt,dd,tr,td,th,input,h1,h2,h3,h4,h5,h6,p,button,a{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+a,u{
+	color: #000;
+	text-decoration: none;
+}
+b,strong{
+	font-weight: normal;
+}
+i,em{
+	font-style: normal;
+	/* font-family: "SimSun"; */
+	color: gray;
+}
+ul,li{
+	list-style: none;
+}
+input{
+	outline: none;
+	border: 0;
+}
+img{
+	border: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+html{
+    font-size: 31.25vw;
+}
